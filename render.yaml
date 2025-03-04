@@ -1,8 +1,10 @@
 databases:
   - name: mysitedb
-    plan: free
+    plan: pro-4gb
     databaseName: mysite
     user: mysite
+    readReplicas:
+      - name: my-db-replica
 
 services:
   - type: web
