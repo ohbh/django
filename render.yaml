@@ -3,6 +3,8 @@ databases:
     plan: pro-4gb
     databaseName: mysite
     user: mysite
+    readReplicas:
+      - name: my-db-replica-3
 
 services:
   - type: web
