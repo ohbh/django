@@ -7,9 +7,8 @@ databases:
       - name: my-db-replica-5
       - name: my-db-replica-1
       - name: my-db-replica-6
-      - name: my-db-replica-2
       - name: my-db-replica-4
-      - name: my-db-replica-3
+      - name: my-db-replica-10
 
 services:
   - type: web
