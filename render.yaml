@@ -4,7 +4,7 @@ databases:
     databaseName: mysite
     user: mysite
     readReplicas:
-      - name: my-db-replica-4
+      - name: mysitedb-replica
 
 services:
   - type: web
