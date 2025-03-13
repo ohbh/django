@@ -5,6 +5,8 @@ databases:
     user: mysite
     readReplicas:
       - name: mysitedb-replica
+      - name: mysitedb-replica-2
+      - name: mysitedb-replica-4
 
 services:
   - type: web
